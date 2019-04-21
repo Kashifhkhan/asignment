@@ -1,0 +1,33 @@
+body {
+    background: #666;
+}
+h1 {
+    margin: 2em 0;
+}
+.form-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group input {
+    font-size: 16px;
+    padding: 4px 8px
+}
+.form-wrapper button{
+    padding: 10px 20px;
+    background: #063848;
+    border: none;
+    color: #fff;
+
+}
+.align-right {
+    text-align: right;
+}
+
+#sucess-msg {
+    display: none;
+}

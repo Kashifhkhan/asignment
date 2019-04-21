@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <form action="" id="registerform">
+                <div class="form-group">
+                    <label for="fname">First Name * :</label>
+                    <input type="text" id="fname">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name :</label>
+                    <input type="text" id="lname">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth : </label>
+                    <input type="text" id="dob">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email * :</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password * :</label>
+                    <input type="password" id="password">
+                </div>
+
+                <div class="form-group" id="temp-addresss">
+                        <label for="">Temporary Address : </label>
+                        <div class="form-group">
+                                <label for="city">City : </label>
+                                <input type="text" id="city">
+                        </div>
+                        <div class="form-group">
+                                <label for="state">State : </label>
+                                <input type="text" id="state">
+                        </div>
+                        <div class="form-group">
+                                <label for="country">Country : </label>
+                                <input type="text" id="country">
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Permanent Address same as temporary : </label>
+                    <input type="checkbox" id="checkaddress">
+                </div>
+
+                <div class="form-group" id="perm-address">
+                        <label for="">Temporary Address : </label>
+                        <div class="form-group">
+                                <label for="city">City : </label>
+                                <input type="text" id="city">
+                        </div>
+                        <div class="form-group">
+                                <label for="state">State : </label>
+                                <input type="text" id="state">
+                        </div>
+                        <div class="form-group">
+                                <label for="country">Country : </label>
+                                <input type="text" id="country">
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="security-quest">Security Questions</label>
+                    <select name="" id="security-quest">
+                        <option value="name">Pet Name</option>
+                        <option value="firstschool">First school Name</option>
+                        <option value="firstbike">First Bike Name</option>
+                        <option value="firsttv">First TV Name</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="security-ans">Security Answer</label>
+                    <input type="text" id="security-ans">
+                </div> 
+                <div class="align-right">
+                    <button type="button" id="register">Register</button>
+                </div>
+        </form>
+        <div id="sucess-msg">
+            <h1> Registration successfull !!!!</h1>
+            <p>Click <a href="index.html">Here</a> to login.</p>
+        </div>
+    </div>
+
+    <script src="custom.js"></script>
+</body>
+</html>
